@@ -1,0 +1,381 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    padding:0;
+    background-color:#fff; /* body背景色 */
+    background-image:url(''); /* body背景画像 */
+    background-repeat:repeat; /* body背景画像繰り返し */
+    background-position:left top; /* body背景画像ポジション */
+    color:#333; /* body文字色 */
+    font-size:13px; /* body文字サイズ */
+    text-align:center;
+    font-family:"Verdana", "ヒラギノ角ゴ Pro W3", "ＭＳ ゴシック", "Osaka‐等幅";
+    line-height:1.2;
+}
+ul,li,div,p,table,h2,h3{
+    padding:0;
+    margin:0;
+}
+a:link{
+    color:#0000ee; /* リンク文字色 */
+    text-decoration:underline;
+}
+a:visited{
+    color:#0000ee;
+    text-decoration:underline;
+}
+a:active{
+    color:#0000ee;
+    text-decoration:underline;
+}
+a:hover{
+    color:#0000ee; /* リンク文字色（hover時） */
+    text-decoration:none;
+}
+img{
+    border:0;
+}
+.wrap{
+    width:700px; /* コンテンツの幅 */
+    margin:20px auto 0;
+}
+.header{
+    text-align:left;
+    overflow:hidden;
+    _zoom:1;
+}
+.header p{
+    margin:10px;
+    font-weight:bold;
+    font-size:22px; /* ショップタイトルの文字サイズ */
+}
+.header a{
+    text-decoration:none;
+    color:#333; /* ショップタイトルの文字色 */
+}
+.main{
+    padding:15px 30px;
+    background:#fff; /* コンテンツの背景色 */
+    border-width:1px; /* コンテンツの罫サイズ線 */
+    border-style:solid; /* コンテンツの罫線スタイル */
+    border-color:#ddd; /* コンテンツの罫線色 */
+}
+.section{
+    overflow:hidden;
+    _zoom:1;
+    margin-bottom:40px;
+}
+.entry{
+    border-top-width:1px; /* 境目の罫線サイズ */
+    border-top-style:dotted; /* 境目の罫線スタイル */
+    border-top-color:#ddd;/* 境目の罫線色 */
+    padding-top:40px;
+}
+.headImg{
+    margin-bottom:15px;
+    text-align:center;
+}
+h2{
+    text-align:left;
+    margin-bottom:10px;
+    font-size:15px;
+    color:#333;
+}
+h3{
+    text-align:left;
+    margin-bottom:10px;
+}
+.txt01{
+    text-align:left;
+    line-height:1.6;
+}
+.errortxt{
+    text-align:left;
+    color:#ff0000;
+    margin-top:8px;
+}
+.loginform{
+    width:390px;
+    margin:20px auto 0;
+}
+.loginform th{
+    text-align:left;
+    min-width:120px;
+    padding:5px 8px;
+    background:#ccc; /* テーブルの背景色（タイトル） */
+    font-size:13px; /* テーブルのフォントサイズ（タイトル） */
+    color:#333;/* テーブルの文字色（タイトル） */
+}
+.loginform td{
+    text-align:left;
+    padding:5px;
+    background:#eee; /* テーブルの背景色（項目） */
+}
+.loginform td input{
+    width:200px;
+    font-size:13px; /* テーブルのフォントサイズ（項目） */
+    color:#333; /* テーブルの文字色（項目） */
+}
+.keeptxt{
+    width:390px;
+    margin: 4px auto 15px;
+}
+.passwdtxt{
+    width:390px;
+    text-align:left;
+    margin: 4px auto 0;
+}
+label{
+    cursor:pointer;
+}
+.btn{
+    margin-top:20px;
+}
+.btn input{
+    cursor:pointer;
+    padding:2px 10px;
+}
+.link{
+    text-align:center;
+    margin-top:10px;
+}
+
+/* buy */
+.buyEntry{
+    margin:0 20px 10px 0;
+}
+.buyNmember{
+    margin:0 0 10px 20px;
+}
+.buyBorder{
+    border-right-width:1px; /* 境目の罫線サイズ */
+    border-right-style:dotted; /* 境目の罫線スタイル */
+    border-right-color:#ddd;/* 境目の罫線色 */
+}
+.buyWrap td {
+    padding: 0;
+    width: 50%;
+}
+
+/* footer */
+.footer{
+    margin-top:30px;
+}
+.shoplink{
+    text-align:right;
+    margin-bottom:10px;
+}
+.seal{
+    width:400px;
+    margin:0 auto;
+}
+.sealimg img{
+    border:5px solid #fff;
+}
+.sealtxt{
+    text-align:left;
+    font-size:10px;
+    padding-left:10px;
+    color:#666;/* フッターの文字色 */
+}
+
+/* lockes */
+
+#locked .main{
+    padding:30px 30px 0 30px;
+}
+.errorContents{
+    background:#ffeeee;
+    padding:16px;
+    text-align:left;
+    margin:16px auto;
+    color:#ff0000;
+}
+
+/* amazon */
+.amazon-login-v2 {
+    max-width:250px;
+    height: 40px;
+    margin: 0 auto 40px;
+}
+
+a:hover img{
+    filter: alpha(opacity=75);
+    -moz-opacity:0.75;
+    opacity:0.75;
+}
+
+.password .loginform{
+    width: 450px;
+}
+
+.password input[name="email"]{
+    width: 95%;
+}
+
+.notes {
+    font-size: 10px;
+    color: #888;
+    display: block;
+    margin-top: 4px;
+}
+
+.btn input[type="button"]{
+    min-width: 250px;
+    max-width: 290px;
+    border: none;
+    background: #333;
+    color: #fff;
+    text-decoration:  none;
+    padding: 8px 32px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 17px;
+    display: inline-block;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+
+.btn input[type="submit"]{
+    min-width: 250px;
+    max-width: 290px;
+    border: none;
+    background: #333;
+    color: #fff;
+    text-decoration:  none;
+    padding: 8px 32px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 17px;
+    display: inline-block;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+
+.btn input[type="button"].disabled{
+    background: #ddd;
+    pointer-events: none;
+}
+
+
+.btn input[type="button"]:hover{
+    background: #666;
+}
+
+.policy_area{
+    border:1px solid #ccc;
+    height:175px;
+    overflow-x:hidden;
+    overflow-y:auto;
+    margin:16px auto;
+    text-align: left;
+    font-size:13px;
+}
+
+iframe.privacyPolicy {
+    width: 100%;
+    border: 1px solid #ccc;
+    margin-bottom: 8px;
+    height: 140px;
+    overflow: auto;
+    box-sizing: border-box;
+}
+
+.cautionText{
+    color:#ff0000;
+    margin-top: 20px;
+}
+#passKey{
+    margin:24px 0 8px;
+    background:#ffe0e0;
+    border:1px solid #cc0000;
+    padding:8px;
+}
+#passKey p{
+    text-align:center;
+    font-weight:bold;
+    font-size:21px;
+    letter-spacing:0.5em;
+    line-height:60px;
+    color:#cc0000;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top:0;
+    background:#fff;
+}
+.cautionCopy{
+    text-align:center;
+}
+
+.confirm-notes{
+    font-size: 12px;
+    color: #666;
+}
+
+@media screen and (max-width: 768px){
+    .header img {
+        max-width: 100%;
+    }
+    .wrap {
+        width: 100%;
+    }
+    .main {
+        padding: 1rem;
+        border: none;
+        float: left;
+    }
+    .headImg img{
+        max-width: 100%;
+    }
+    .loginform, .password .loginform {
+        width:100%;
+    }
+    .password input[name="email"] {
+        width: 100%;
+    }
+    .loginform th {
+        width: 100%;
+        display: block;
+    }
+    .loginform td {
+        width: 100%;
+        display: block;
+    }
+    .loginform td input{
+        width: 100%;
+    }
+    .keeptxt, .passwdtxt{
+        width: 100%;
+    }
+    .seal{
+        width: 100%;
+    }
+    .btn input[type="button"]{
+        width: 100%;
+        max-width: 400px;
+    }
+    .buyWrap {
+        width: 100%;
+    }
+    .buyWrap td {
+        width: 100%;
+        display: block;
+    }
+    .buyEntry {
+        margin: 0 0 2rem;
+    }
+    .buyNmember {
+        margin: 0;
+    }
+    .buyBorder {
+        border: none;
+    }
+    /* amazon */
+    .amazon-login-v2 {
+        width:100%;
+        max-width: 400px;
+    }
+}
